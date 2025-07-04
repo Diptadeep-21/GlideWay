@@ -51,4 +51,9 @@ GlideWay is designed to simplify and modernize the process of bus travel — fro
 ---
 
 ## 🗂️ Folder Structure
-
+BUS_ROOT/
+├── frontend/ # React app
+├── bus-auth-backend/ # Express API backend
+├── .env # Environment variables
+├── .gitignore
+└── README.md
