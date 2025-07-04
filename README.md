@@ -1,59 +1,108 @@
-# 🚍 GlideWay – Full Stack Bus Booking System
+| Best Bus Booking Platform for Smart Travel |
+|-------------------------------------------|
+| ![GlideWay UI](screenshots/glideway-main.png) |
 
-**GlideWay** is a full-featured, real-time bus ticket booking platform that reimagines the travel experience for passengers, drivers, and admins. Built as a solo project by a CSE student at KIIT University, this MERN stack application reflects a strong grasp of modern web technologies, user-centered design, and scalable architecture.
-
----
-
-## 🌟 Overview
-
-GlideWay is designed to simplify and modernize the process of bus travel — from browsing routes to engaging with drivers in real time. The platform supports dedicated roles for **Passengers**, **Drivers**, and **Admins**, each offering unique, purpose-driven functionality.
-
----
-
-## ✨ Key Features
-
-### 👤 Passenger Role
-- Browse buses, routes, and schedules with live seat availability
-- Book and manage seats, view booking history
-- Real-time chat with drivers for trip updates
-- Rate journeys and amenities for service improvement
-
-### 👨‍✈️ Driver Role
-- View and manage assigned trips & schedules
-- Track live bookings for assigned buses
-- Real-time communication with passengers
-- Access to performance dashboards
-
-### 🛡️ Admin Role
-- Manage buses, routes, and driver assignments
-- Monitor user activity and live bus tracking
-- Access booking and revenue analytics
-
-### 💬 Unique Highlights
-- **Real-time chat system** (Socket.IO powered)
-- **Live bus tracking**
-- **Group booking with discounted fare**
-- **Secure and responsive design**
-- **Amenity-specific ratings** for WiFi, seats, and cleanliness
+## 📑 Table of Contents
+- [🌟 Introduction](#-introduction)
+- [✨ Features](#-features)
+  - [👥 Passenger Experience](#-passenger-experience)
+  - [🧑‍✈️ Driver Tools](#-driver-tools)
+  - [🛡️ Admin Dashboard](#-admin-dashboard)
+  - [📡 Unique Functionalities](#-unique-functionalities)
+- [📸 Screenshots](#-screenshots)
+- [🚀 Getting Started](#-getting-started)
+  - [Prerequisites](#prerequisites)
+  - [Installation](#installation)
+- [🛠️ Tech Stack](#️-tech-stack)
+  - [Frontend](#frontend)
+  - [Backend](#backend)
+- [📈 Future Enhancements](#-future-enhancements)
+- [🙋‍♂️ About the Developer](#-about-the-developer)
+- [📄 License](#-license)
 
 ---
 
-## 🛠️ Tech Stack
+## 🌟 Introduction
 
-| Layer        | Technology                          |
-|--------------|--------------------------------------|
-| Frontend     | React.js, Tailwind CSS, Framer Motion, Axios |
-| Backend      | Node.js, Express.js, MongoDB, Mongoose |
-| Realtime     | Socket.IO                           |
-| File Uploads | Multer                              |
-| Auth & Email | JWT, Nodemailer                     |
+**GlideWay** is a modern full-stack bus booking system developed to streamline bus travel for passengers, drivers, and admins. Built by a passionate developer from KIIT University, this project demonstrates expertise in real-time systems, full-stack architecture, and user-first design.
+
+> A travel-tech platform offering seamless booking, chat-enabled trips, group travel features, and real-time bus tracking.
 
 ---
 
-## 🗂️ Folder Structure
-BUS_ROOT/
-├── frontend/ # React app
-├── bus-auth-backend/ # Express API backend
-├── .env # Environment variables
-├── .gitignore
-└── README.md
+## ✨ Features
+
+### 👥 Passenger Experience
+- View buses, availability, and detailed trip info
+- Book seats with responsive layouts
+- Cancel/manage bookings and rate trips
+- Chat live with assigned drivers
+- Get notified of any delays instantly
+
+### 🧑‍✈️ Driver Tools
+- Manage assigned trips and schedules
+- View confirmed passengers
+- Upload bus images and live status
+- Communicate with passengers in real-time
+
+### 🛡️ Admin Dashboard
+- Manage buses, routes, and all users
+- Monitor real-time revenue and booking stats
+- Assign trips, analyze system metrics
+- Handle issues and data centrally
+
+### 📡 Unique Functionalities
+- ✅ Live group chat between co-passengers
+- ✅ Delay alerts via email + dashboard updates
+- ✅ Group booking with smart fare splitting
+- ✅ Amenity-wise feedback (WiFi, cleanliness, comfort)
+
+---
+
+## 📸 Screenshots
+
+<details>
+<summary><b>🔽 Click to View Screenshots</b></summary>
+
+### 🏠 Home Page
+
+| Hero Banner | Role Selector |
+|-------------|---------------|
+| ![Hero](screenshots/home.png) | ![Roles](screenshots/roles.png) |
+
+### 🎟️ Booking Flow
+
+| Seat Layout | Booking Confirmation |
+|-------------|----------------------|
+| ![Seats](screenshots/seats.png) | ![Confirm](screenshots/confirm.png) |
+
+### 🗣️ Real-Time Chat
+
+| Passenger Chat | Driver View |
+|----------------|-------------|
+| ![Passenger Chat](screenshots/chat-passenger.png) | ![Driver Chat](screenshots/chat-driver.png) |
+
+### 📊 Admin Panel
+
+| Overview Dashboard | Revenue Trends |
+|--------------------|----------------|
+| ![Admin Panel](screenshots/admin-dashboard.png) | ![Revenue](screenshots/revenue.png) |
+
+</details>
+
+---
+
+## 🚀 Getting Started
+
+### Prerequisites
+- Node.js + npm
+- MongoDB (Atlas/local)
+- Cloudinary or local file storage (for images)
+
+### Installation
+
+#### 📁 Backend Setup
+```bash
+cd bus-auth-backend
+npm install
+npm run dev
