@@ -25,7 +25,7 @@
 
 ## 🌟 Introduction
 
-**GlideWay** is a cutting-edge full-stack bus booking platform designed to enhance the travel experience for passengers, drivers, and administrators. Developed by Diptadeep Sinh, a dedicated student from KIIT University, GlideWay tackles real-world travel challenges by fostering seamless communication, promoting social travel, and prioritizing passenger comfort. With role-based access for passengers, drivers, and admins, it offers a robust, user-friendly solution for modern bus travel.
+**GlideWay** is a cutting-edge full-stack bus booking platform designed to enhance the travel experience for passengers, drivers, and administrators. Developed by Diptadeep Sinha, a dedicated student from KIIT University, GlideWay tackles real-world travel challenges by fostering seamless communication, promoting social travel, and prioritizing passenger comfort. With role-based access for passengers, drivers, and admins, it offers a robust, user-friendly solution for modern bus travel.
 
 > A smart travel platform enabling effortless booking, real-time tracking, group chats, and personalized travel experiences.
 
