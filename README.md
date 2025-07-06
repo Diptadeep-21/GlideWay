@@ -182,5 +182,13 @@
 [![Mapbox GL](https://img.shields.io/badge/Mapbox_GL-000000?style=for-the-badge&logo=mapbox&logoColor=white)](https://www.mapbox.com/)
 [![date-fns](https://img.shields.io/badge/date_fns-007ACC?style=for-the-badge&logo=date-fns&logoColor=white)](https://date-fns.org/)
     
+## 📈 Future Enhancements
+- **Multi-Language Support**: Implement localization to support diverse user bases and enhance accessibility.
+- **Payment Gateway Integration**: Add secure online payment options for seamless booking transactions.
+- **AI-Powered Recommendations**: Leverage user preferences and booking history to suggest personalized bus options.
+- **Offline Mode**: Enable caching of critical data for access during travel with limited connectivity.
+- **Driver Incentive System**: Enhance badge and reward mechanisms to motivate and recognize top-performing drivers.
 
+## 🙋‍♂️ About the Developer
+GlideWay was crafted by Diptadeep Sinha, driven by a vision to transform bus travel. With expertise in full-stack development, real-time systems, and user-centric design, this project embodies a commitment to addressing real-world travel challenges. Connect with me on [GitHub](https://github.com/Diptadeep-21) or [LinkedIn](https://linkedin.com/in/diptadeep-sinha-352365349/) to collaborate or share feedback!
  
