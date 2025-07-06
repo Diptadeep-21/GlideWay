@@ -8,7 +8,7 @@
 - [🌟 Introduction](#-introduction)
 - [✨ Features](#-features)
   - [👥 Passenger Features](#-passenger-features)
-  - [🧑‍✈️ Driver Tools](#-driver-tools)
+  - [🧑‍✈️🚌 Driver Tools](#driver-tools)
   - [🛡️ Admin Dashboard](#-admin-dashboard)
   - [🚀 Unique Functionalities](#-unique-functionalities)
 - [📸 Screenshots](#-screenshots)
@@ -42,7 +42,7 @@
 - **Live Tracking**: Access live bus tracking links to share with loved ones for safety.
 - **Convenience**: Choose boarding points, print tickets, and rate amenities (WiFi, cleanliness, comfort) post-journey.
 
-### 🧑‍✈️ Driver Tools
+### 🧑‍✈️🚌  Driver Tools
 - **Schedule Management**: Create and edit schedules with details like bus name, number, departure/arrival times, boarding points, halting points, and image uploads.
 - **Trip Oversight**: View assigned trips, start/stop live tracking, and monitor passenger bookings.
 - **Real-Time Communication**: Respond to passenger queries via real-time chat and report delays, notifying passengers through email and the booking page.
