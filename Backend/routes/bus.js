@@ -391,6 +391,53 @@ router.get('/all', async (req, res) => {
   }
 });
 
+// GET /api/bus/search?from=X&to=Y&date=Z
+router.get('/search', async (req, res) => {
+  try {
+    const { from, to, date } = req.query;
+
+    if (!from || !to || !date) {
+      return res.status(400).json({ error: 'Missing query parameters' });
+    }
+
+    // Trim and lowercase source & destination for robust match
+    const trimmedFrom = from.trim().toLowerCase();
+    const trimmedTo = to.trim().toLowerCase();
+
+    // Normalize the input date to a full day range
+    const travelDate = new Date(date);
+    if (isNaN(travelDate)) {
+      return res.status(400).json({ error: 'Invalid date format' });
+    }
+    const startOfDay = new Date(travelDate.setHours(0, 0, 0, 0));
+    const endOfDay = new Date(travelDate.setHours(23, 59, 59, 999));
+
+    // Fetch buses matching source, destination, and exact date
+    const buses = await Bus.find({
+      $expr: {
+        $and: [
+          { $eq: [{ $toLower: { $trim: { input: "$source" } } }, trimmedFrom] },
+          { $eq: [{ $toLower: { $trim: { input: "$destination" } } }, trimmedTo] },
+          { $gte: ["$date", startOfDay] },
+          { $lt: ["$date", endOfDay] },
+        ],
+      },
+    });
+
+    const busesWithDetails = buses.map((bus) => ({
+      ...bus.toObject(),
+      imageUrl: bus.image ? `${process.env.SERVER_URL}/Uploads/${bus.image}` : null,
+    }));
+
+    res.json({ buses: busesWithDetails });
+  } catch (err) {
+    console.error('Error searching buses:', err);
+    res.status(500).json({ error: 'Server error' });
+  }
+});
+
+
+
 // Get bus type distribution
 router.get('/type-distribution', authenticate, async (req, res) => {
   try {
