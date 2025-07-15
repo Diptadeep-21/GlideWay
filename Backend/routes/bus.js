@@ -436,8 +436,6 @@ router.get('/search', async (req, res) => {
   }
 });
 
-
-
 // Get bus type distribution
 router.get('/type-distribution', authenticate, async (req, res) => {
   try {
