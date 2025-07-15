@@ -98,7 +98,7 @@
 ### 📧 Email Notifications
 | Booking Confirmation | Cancellation Notice | Delay Notification | Group Invite |
 |----------------------|---------------------|---------------------|--------------|
-| ![Booking Confirmation](screenshots/booking_email.png) | ![Cancellation Notice](screenshots/cancellation_emai.png) | ![Delay Notification](screenshots/delay_emai.png) | ![Group Invite](screenshots/group_invite.png) |
+| ![Booking Confirmation](screenshots/booking_email.png) | ![Cancellation Notice](screenshots/cancellation_email.png) | ![Delay Notification](screenshots/delay_emai.png) | ![Group Invite](screenshots/group_invite.png) |
 
 </details>
 
