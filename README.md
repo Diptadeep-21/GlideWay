@@ -83,7 +83,7 @@
 ### 🗣️ Passenger Features
 | Passenger Chat | Group Chat | Live Tracking | My Bookings |
 |----------------|------------|---------------|---------------|
-| ![Passenger Chat](screenshots/chat_with_driver.png) | ![Group Chat](screenshots/groupchat.png) | ![Live Tracking](screenshots/passenger_track_bus.png) | | ![My Bookings](screenshots/passenger_mybookings.png) |
+| ![Passenger Chat](screenshots/chat_with_driver.png) | ![Group Chat](screenshots/groupchat.png) | ![Live Tracking](screenshots/passenger_track_bus.png) | ![My Bookings](screenshots/passenger_mybookings.png) |
 
 ### 📊 Admin Dashboard
 | Live Tracking | Bus List | Analytics | Driver Performance | Manage Bus | Manage Driver | Manage Route |
