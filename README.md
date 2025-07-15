@@ -92,8 +92,7 @@
 
 ### 🧑‍✈️ Driver Dashboard
 | Schedule Management | Edit Schedule | Assigned Trips | Driver Tracking | Performance Dashboard |
-|---------------------|----------------------|----------------------|
-|---------------------|----------------------|
+|---------------------|----------------------|----------------------|---------------------|----------------------|
 | ![Schedule](screenshots/driver_manageschedule.png) | ![Edit Schedule](screenshots/driver_editschedule.png) | ![Driver Tracking](screenshots/driver_tracking.png) | ![Driver Tracking](screenshots/driver_assignedtrips.png) | ![Performance](screenshots/driver-performance_dashboard.png) |
 
 ### 📧 Email Notifications
